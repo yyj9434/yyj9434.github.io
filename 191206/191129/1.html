@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>fadeIn/Out</title>
+        <meta charset="utf-8">
+        <style>
+            #gallery{
+                width : 950px;
+                height : 190px;
+                background : #ff0;
+                border : 2px solid blakc;
+                border-radius : 15px;
+            }
+           ul {
+               list-style : none;
+           }
+           ul li {
+               display : inline;
+               float : left;
+               padding : 10px;
+           }
+           .bigPic {
+               position : absolute;
+               display : none;
+               left : 100px;
+               width : 400px;
+               height : 340px;
+           }
+           .smallpic {
+                border : 2px dotted red;
+                width : 200px;
+                height : 140px;
+           }
+        </style>
+        <script src = "http://code.jquery.com/jquery-3.4.1.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#s1").click(function(){
+                    $("#big1").fadeIn(1000);
+                });
+                $("#big1").click(function(){
+                    $("#big1").fadeOut(1000);
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id = "gallery">
+            <img src = "heo.jpg" width = "200" height="200"><br>
+            <img src = "heo.jpg" id = "s1" width = "200" height = "150">
+            <img src = "heo.jpg" id= "big1" class="bicPic" width="400">
+
+        </div>
+
+    </body>
+</html>

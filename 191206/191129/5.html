@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <style>
+            input{
+                background : yellow;
+                width : 150px;
+                height : 30px;
+                border : 1px solid red;
+            }
+            img {
+                border : 2px solid black;
+            }
+        </style>
+        <script src = "http://code.jquery.com/jquery-3.4.1.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#btn").click(function(){
+                    $("img").animate({ width : "600px"}, 1000);
+                    $("img").animate({height : "398px"}, 1000);
+                    $("img").animate({borderRadius : "50px"},1000);
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <img src = "heo.jpg" width=300 height=200>
+        <br>
+        <b>밥풀이에요</b>
+        <br>
+        <input id = "btn" value = "확대하기">
+    </body>
+</html>

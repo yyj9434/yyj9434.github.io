@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <style>
+            #gallery{
+                    width : 950px;
+                    height : 190px;
+                    background : #ff0;
+                    border : 2px solid blakc;
+                    border-radius : 15px;
+                }
+                ul {
+                    list-style : none;
+                }
+                ul li{
+                    display : inline;
+                    float : left;
+                    padding : 10px;
+                }
+                .digPic {
+                    position : absolute;
+                    display : none;
+                    left : 100px;
+                    width : 400px;
+                    height : 340px;
+                }
+                .smallpic{
+                    border : 2px dotted red;
+                    width : 200px;
+                    height : 140px;
+                }
+        </style>
+        <script src = "http://code.jquery.com/jquery-3.4.1.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#s1").click(function(){
+                    $("#big1").fadeIn(1000);
+                });
+                $("big1").click(function(){
+                    $("#big1").fadeOut(1000);
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1>사용법</h1>
+        <ol>
+            <li>작은 이미지를 클릭하면 큰 이미지가 나타납니다.</li>
+            <li>큰 이미지를 클릭하면 큰 이미지가 사라집니다.</li>
+        </ol>
+        <div id = "gallery">
+            <ul>
+                <li>
+                    <img src = "heo.jpg" id="s1" class="smallpic">
+                    <img src = "heo.jpg" id="big1" class="bigPic">
+                
+                </li>
+                <li>
+                        <img src = "heo.jpg" id="s2" class="smallpic">
+                        <img src = "heo.jpg" id = "big2" class="bigPic">
+                </li>
+                <li>
+                        <img src = "heo.jpg" id="s3" class="smallpic">
+                        <img src = "heo.jpg" id = "big3" class="bigPic">
+                </li>
+                <li>
+                    <img src = "heo.jpg" id="s4" class="smallpic">
+                    <img src = "heo.jpg" id = "big4" class="bigPic">
+                </li>
+            </ul>
+        </div>
+
+    </body>
+</html>

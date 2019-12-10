@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>RECIPE</title>
+  <link rel="stylesheet" type="text/css" href="css/sub1.css">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script|Noto+Serif+KR&display=swap" rel="stylesheet">
+  <style>
+  </style>
+  <script src = "http://code.jquery.com/jquery-3.4.1.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#main").click(function() {
+        $("img").animate({width : "600px"}, 1000);
+        $("img").animate({height : "398px"}, 1000);
+        $("img").animate ({borderRadius : "50px"}, 1000);
+      });
+    });
+  </script>
+</head>
+<body>
+  <section>
+    <img class="side" src="images/side1.png" alt="화살표"><h2>메밀 소바</h2><img class="side" src="images/side2.png" alt="화살표">
+    <img id="main" src ="images/memilsoba2.jpg" alt="메밀소바">
+    <div>
+      <img class="side" src="images/spoonknife.png" alt="숟가락"><h3>재료</h3>
+    </div>
+      <ul id="igd">
+        <li>구운 김</li>
+        <li>메밀 국수 (1인분)</li>
+        <li>무 (5cm)</li>
+        <li>고추냉이 (약간)</li>
+        <li>물 (1/2컵)</li>
+        <li>쯔유 (1/2 종이컵)</li>
+        <li>쪽파 (3대)</li>
+        </ul>
+      <ol>
+      <li><span class="num">1</span><span class="intro">쯔유를 만든다.</span><img src="images/recipe1.jpg" alt="레시피1"></li>
+      <li><span class="num">2</span><span class="intro">무를 강판에 갈아서 준비한다.</span><img src="images/recipe2.jpg" alt="레시피2"></li>
+      <li><span class="num">3</span><span class="intro">쪽파를 송송 썰어서 준비한다.</span><img src="images/recipe3.jpg" alt="레시피3"></li>
+      <li><span class="num">4</span><span class="intro">쯔유와 물을 섞어 냉동 보관한다.</span><img src="images/recipe4.jpg" alt="레시피4"></li>
+      <li><span class="num">5</span><span class="intro">메밀 국수는 끓는 물에 삶아 찬 물에 헹궈 준비한다.</span><img src="images/recipe5.jpg" alt="레시피5"></li>
+      <li><span class="num">6</span><span class="intro">그릇에 메밀 국수를 올리고 쯔유 소스와 고추냉이, 무, 쪽파와 함께 내어 완성한다.</span><img src="images/recipe6.jpg" alt="레시피6"></li>
+    </ol>
+</body>
+</html>

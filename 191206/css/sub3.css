@@ -1,0 +1,239 @@
+header {
+  background-color:#F5ECCE;
+  width:1440px;
+  height:90px;
+  text-align:center;
+}
+
+section {
+  background-color:white;
+  width:1440px;
+  height:900px;
+  text-align:center;
+}
+
+footer {
+  background-color:#F5ECCE;
+  width:1440px;
+  height:200px;
+  text-align:left;
+    font-family: 'Noto Serif KR', serif;
+    color : gray;
+}
+
+body {margin: auto;
+  width:1440px;
+}
+
+
+ul {
+  width : 380px;
+  margin : 30px 0px;
+  padding : 0px 50px;
+  list-style-type:none;
+  font-size:20px;
+  font-weight:bold;
+  color:#03CF5D;
+  display:inline-block;
+  float:left;
+  overflow: hidden;
+}
+
+ul li {
+  margin-left: 25px;
+  display:inline-block;
+  font-family: 'Noto Serif KR', serif;
+  float:left;
+}
+
+.menu a {
+  color : #03CF5D;
+}
+
+.dropdown a {
+display: inline-block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li.dropdown {
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: #6E6E6E;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #03CF5D; color:white;}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+h1 {
+  height: 60px;
+  margin: 15px;
+  font-size:60px;
+  color:#872600;
+  text-align: center;
+  font-weight:bold;
+  font-family: 'Nanum Brush Script', cursive;
+  display:inline-block;
+  float:left;
+}
+
+#title {
+  heiht : 90px;
+  width : 300px;
+  display : inline-block;
+  float:left;
+  padding-left:70px;
+}
+
+button {
+  height:40px;
+  background-color:#03CF5D;
+  color:white;
+  border-style:solid;
+  border-radius:5px;
+  font-family: 'Noto Serif KR', serif;
+  margin: 25px 0px 25px 15px;
+  font-size:13px;
+}
+
+  #buttons{
+    display : inline-block;
+    float:left;
+    height:90px;
+    width:550px;
+  }
+
+button a {
+  text-decoration : none; color:white;
+}
+
+  a {
+  text-decoration : none;
+}
+
+ .fir a {
+   text-decoration : none; color:black;
+ }
+
+#search {
+  display: inline-block;
+  border-style:none;
+  border-radius: 5px 0px 0px 5px;
+  width:60px;
+  height:40px;
+}
+
+input {
+  width : 160px;
+  height:34px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-family: 'Noto Serif KR', serif; margin-top:15px;
+}
+
+
+#mark {
+  width:46px;
+  height:46px;
+  float:left;
+  margin:20px 0px;
+}
+
+h1{
+  margin-left:10px;
+  height:60px;
+  float:left;
+}
+
+img {
+  height:150px;
+  width:220px;
+}
+
+h2 {
+  float : left;
+  background-color : #F5ECCE;
+  color : #872600;
+  font-family: 'Nanum Brush Script', cursive;
+  font-size : 40px;
+  margin : 20px 1200px 20px 50px;
+}
+
+#title2 {
+  width : 1440px;
+  heigHt : 80px;
+}
+
+h3 {
+  display : inline-block;
+  width : 150px;
+  color : #2F9D27;
+  font-family: 'Noto Serif KR', serif;
+  font-size : 23px;
+}
+
+#category {
+  height:80px;
+}
+
+#writeN {
+  width : 798px;
+  height : 50px;
+}
+
+#writeR {
+  width : 800px;
+  height : 500px;
+}
+
+select {
+  width : 220px;
+  margin-right : 45px;
+  height : 50px;
+}
+
+#recipe h3 {
+  padding : 100px 0px 300px; 0px;
+}
+
+#recipe {
+  width : 1000px;
+  margin-left : 220px;
+  float : left;
+}
+
+#submit {
+    display : inline-block;
+    width : 180px;
+    margin-top : 350px;
+    float : left;
+}
+
+#submit button,#submit a {
+  background-color : #D5D5D5;
+  color : #22741C;
+  font-weight : bold;
+  width : 100px;
+  height : 50px;
+  font-size : 17px;
+}
